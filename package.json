@@ -1,0 +1,53 @@
+{
+  "name": "create-p5-project",
+  "version": "1.0.0",
+  "description": "An npm / npx starter template for P5 projects using Typescript and Hot Reload preview",
+  "main": "index.js",
+  "bin": {
+    "create-my-template": "./bin/create-p5-project.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplyhexagonal/create-p5-project.git"
+  },
+  "files": [
+    "package-lock.json",
+    "package.json",
+    "bin",
+    "README.md",
+    "templates/*/.vscode/*",
+    "templates/*/src/*",
+    "templates/*/.gitignore",
+    "templates/*/package-lock.json",
+    "templates/*/package.json",
+    "templates/*/tsconfig.app.json",
+    "templates/*/tsconfig.json",
+    "templates/*/tsconfig.node.json",
+    "templates/*/vite.config.ts",
+    "templates/*/README.md"
+  ],
+  "keywords": [
+    "p5",
+    "typescript",
+    "hmr",
+    "hot-reload",
+    "hot",
+    "reload",
+    "preview",
+    "svg",
+    "sound",
+    "vscode"
+  ],
+  "author": "Jean M. Lescure",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simplyhexagonal/create-p5-project/issues"
+  },
+  "homepage": "https://github.com/simplyhexagonal/create-p5-project#readme",
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  }
+}
